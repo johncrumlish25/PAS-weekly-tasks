@@ -1,7 +1,7 @@
 # Programming and Scripting - Weekly Tasks
 
 ## Overview
-This repository contains a collection of Weekly Tasks completed as part of the Programming and Scripting module, delievered by (https://www.atu.ie/)[ATU]
+This repository contains a collection of Weekly Tasks completed as part of the Programming and Scripting module, delievered by [ATU](https://www.atu.ie/)
 
 The purpose of this repository is to demonstrate the development of Python programming skills over time, with each task focusing on different concepts and techniques.
 
