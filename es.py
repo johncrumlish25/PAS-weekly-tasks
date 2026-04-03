@@ -9,13 +9,12 @@ import os  # Checks does file exist
 if len(sys.argv) < 2: # if it is less than 2 then the file doesn't exist
     print("Error: No filename given")
 else:
-    FILENAME = sys.argv[1]
+    filename = sys.argv[1]
 
     # Check if file exists
-    if os.path.exists(FILENAME):
-        f = open(FILENAME, "r")
-        text = f.read()
-        print(text.count("e"))
-        f.close()
+    if os.path.exists(filename):
+        with open(filename, "r") as f:
+            text = f.read()
+            print(text.count("e"))
     else:
         print("Error: File does not exist")
