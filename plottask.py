@@ -6,6 +6,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Generates Data
+# Note: The task specifies values between 0–10, but a normal distribution
+# (mean=5, std=2) can produce values outside this range.
 data = np.random.normal(5, 2, 1000)
 
 # x & y Values
