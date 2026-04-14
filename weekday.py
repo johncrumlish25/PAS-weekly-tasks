@@ -2,7 +2,9 @@
 # Outputs whether or not today is a weekday
 # Author: John Crumlish
 
-# Found on docs.python
+# Reference:
+# https://www.w3schools.com/python/python_datetime.asp
+
 import datetime
 
 # Get today's day
