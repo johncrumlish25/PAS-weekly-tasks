@@ -2,6 +2,10 @@
 # Reads in a text file and outputs the number of e's it contains
 # Author: John Crumlish
 
+# References (Sys + Os):
+# https://docs.python.org/3/library/sys.html#sys.argv
+# https://docs.python.org/3/library/os.path.html#os.path.exists
+
 import sys # Reads arguments from the command line
 import os  # Checks does file exist
 
