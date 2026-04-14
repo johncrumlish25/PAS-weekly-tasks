@@ -2,6 +2,9 @@
 # Takes a positive floating-point number as input and outputs an approximation of its square root
 # Author: John Crumlish
 
+# Reference (Newton-Raphson Method):
+# https://www.geeksforgeeks.org/engineering-mathematics/newton-raphson-method/
+
 precision = 0.000001  # Controls how accurate the result is
 
 # Function to calculate square root using the Newton-Raphson method
